@@ -18,8 +18,8 @@ export default function Home() {
   const clue = [
     { question: "Find what Ganesha Wrote?", answer: "siddhinath" },
     { question: "Find the Elephant?", answer: "gajanana" },
-    { question: "Find the who gives solu􀆟ons?", answer: "vighnahartha" },
-    { question: "How Ganpa􀆟 was born?", answer: "bhalchandra" },
+    { question: "Find the who gives solutions?", answer: "vighnahartha" },
+    { question: "How Ganpati was born?", answer: "bhalchandra" },
     { question: "Everything ends at me?", answer: "dhumravarna" },
   ];
 
