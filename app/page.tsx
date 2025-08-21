@@ -81,14 +81,17 @@ export default function Home() {
         </div>
       ) : i === 5 ? (
         <>
-          <h1 className="font-mono  text-orange-400 text-4xl text-center font-bold mt-72">
+          <h1 className="font-mono  text-orange-400 text-4xl text-center font-bold mt-16">
             🎉 Congratulations! 🎉
+            <div className="flex justify-center">
+              <img src='/modak.png' width={250} />
+            </div>
             <br /> You won the Modak Hunt!
             <br /> {teamName}
           </h1>
           <br />
           <br />
-          <h1 className="font-mono  text-orange-400 text-4xl text-center font-bold">
+          {/* <h1 className="font-mono  text-orange-400 text-4xl text-center font-bold">
             New Team Regsitration:
           </h1>
           <div className="text-center mt-2">
@@ -109,7 +112,7 @@ export default function Home() {
               }}
               className={`font-mono  cursor-pointer bg-amber-500 p-2 rounded-2xl text-2xl ml-2 text-white text-center border-amber-400`}
             />
-          </div>
+          </div> */}
         </>
       ) : timeLeft === 0 ? (
         <>
